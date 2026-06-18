@@ -1,0 +1,27 @@
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background: #3498db;
+}
+
+.success {
+  background: #2ecc71;
+}
+
+.danger {
+  background: #e74c3c;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
